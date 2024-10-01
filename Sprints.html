@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+      .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+      .fa-anchor,.fa-coffee {font-size:200px}
+      .horizontal-container {display: flex; flex-direction: row; justify-content: center; align-items: center;}
+      .horizontal-card {border: 2px solid green; padding: 10px; margin: 10px;}
+    </style>
+  </head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-white" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="resources.html" class="w3-bar-item w3-button w3-padding-large w3-white">Resources</a>
+    <a href="Sprints.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprints</a>
+    <a href="ToDo.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">To-Do</a>
+    <a href="timetracking.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Time Tracking</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="resources.html" class="w3-bar-item w3-button w3-padding-large">Resources</a>
+    <a href="Sprints.html" class="w3-bar-item w3-button w3-padding-large">Sprints</a>
+    <a href="ToDo.html" class="w3-bar-item w3-button w3-padding-large">To-Do</a>
+    <a href="timetracking.html" class="w3-bar-item w3-button w3-padding-large">Time Tracking</a>
+  </div>
+</div>
+
+<section id="Sprints">
+  <div style="padding: 60px;">
+    <div style="width: 100%; border: 2px solid darkgray; border-radius: 5px; padding: 0.02px; background-color: lightgray;">
+        <div class="w3-container w3-padding-64">
+            <h1>Sprint 1</h1>
+            <div class="horizontal-container">
+                <div class="horizontal-card" style="text-align: center;">
+                    <h4>Review existing codebase</h4>
+                    <p>Everyone</p>
+                </div>
+                <div class="horizontal-card" style="text-align: center;">
+                    <h4>Create GitHub Projects</h4>
+                    <p>Everyone</p>
+                </div>
+                <div class="horizontal-card" style="text-align: center;">
+                    <h4>Watch video presentation on SATD-Bailiff</h4>
+                    <p>Everyone</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%; border: 2px solid darkgray; border-radius: 5px; padding: 0.02px; background-color: lightgray; margin-top: 20px;">
+        <div class="w3-container w3-padding-64">
+            <h1>Sprint 2</h1>
+            <div class="horizontal-container">
+                <div class="horizontal-card" style="text-align: center;">
+                    <h4>Build website for resource aggregation and time tracking</h4>
+                    <p>Samhita Chunduru</p>
+                </div>           
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+    .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+    .fa-anchor,.fa-coffee {font-size:200px}
+    </style>
+  </head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-white" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="resources.html" class="w3-bar-item w3-button w3-padding-large w3-white">Resources</a>
+    <a href="Sprints.html" class="w3-bar-item w3-button w3-padding-large w3-white">Sprints</a>    
+    <a href="ToDo.html" class="w3-bar-item w3-button w3-padding-large w3-white">To-Do</a>
+    <a href="timetracking.html" class="w3-bar-item w3-button w3-padding-large w3-white">Time Tracking</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="resources.html" class="w3-bar-item w3-button w3-padding-large">Resources</a>
+    <a href="Sprints.html" class="w3-bar-item w3-button w3-padding-large">Sprints</a>
+    <a href="ToDo.html" class="w3-bar-item w3-button w3-padding-large">To-Do</a>
+    <a href="timetracking.html" class="w3-bar-item w3-button w3-padding-large">Time Tracking</a>
+  </div>
+</div>
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Technical Debt</h1>
+  <p class="w3-xlarge">Fall 2024 → Spring 2025 Extension</p>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>About</h1>
+
+      <p class="w3-text-grey">Self-Admitted Technical Debt (SATD) is a transparent form of technical debt where the contributor explicitly documents the debt’s location. This admission usually includes a description of a known or potential defect or a statement outlining the remaining work. For each detected SATD, the tool reports all associated changes, including text updates and eventual removal. The goal of SATD-Bailiff is to assist researchers and practitioners in effectively tracking SATD instances and offering a reliable, easily extendable tool. </p>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+
+    <div class="w3-twothird">
+      <h1>Improvements</h1>
+      <p class="w3-text-grey">The aim of our project is to further improve on the SATD-Bailif tool by creating a plugin version which will integrate seamlessly with IntelliJ, a popular IDE. This will allow developers to identify and track SATD directly within their coding environment. This enhancement aims to provide real-time feedback and streamline the process of managing technical debt, making it more accessible and efficient for developers.</p>
+    </div>
+  </div>
+</div>
+<!-- Contributors Section -->
+<div class="w3-container w3-black w3-center w3-padding-64">
+  <h1 class="w3-margin w3-xlarge">Contributors</h1>
+  <div class="contributor-list">
+    <div class="contributor">
+      <img src="path-to-image" alt="Jaran Binning" width="50" height="50">
+      <div>Jaran Binning</div>
+      <div class="loading-bar"></div>
+    </div>
+    <div class="contributor">
+      <img src="Bhagawat.jpeg" alt="Bhagawat Chapagain" width="50" height="50">
+      <div>Bhagawat Chapagain</div>
+      <div class="loading-bar"></div>
+    </div>
+    <div class="contributor">
+      <img src="Samhita.JPEG" alt="Samhita Chunduru" width="50" height="50">
+      <div>Samhita Chunduru</div>
+      <div class="loading-bar"></div>
+    </div>
+    <div class="contributor">
+      <img src="Neel.jpeg" alt="Neel Kulkarni" width="50" height="50">
+      <div>Neel Kulkarni</div>
+      <div class="loading-bar"></div>
+    </div>
+    <div class="contributor">
+      <img src="Konstantinos.jpeg" alt="Konstantinos Mokos" width="50" height="50">
+      <div>Konstantinos Mokos</div>
+      <div class="loading-bar"></div>
+    </div>
+    <div class="contributor">
+      <img src="Divya.jpeg" alt="Divya Prahlad" width="50" height="50">
+      <div>Divya Prahlad</div>
+      <div class="loading-bar"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity"> 
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-github w3-hover-opacity"></i>
+ </div>
+
+ <!-- Footer end. -->
+ </footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
